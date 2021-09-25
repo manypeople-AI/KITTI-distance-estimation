@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
 import time
-
+import tensorflow as tf
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
-from keras.utils import multi_gpu_model
 from sklearn.preprocessing import StandardScaler
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau, TensorBoard
 
